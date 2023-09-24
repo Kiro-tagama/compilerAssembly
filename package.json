@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "index": "nasm -f elf index.asm && ld -m elf_i386 -s -o index index.o && ./index",
+    "lexico": "nasm -f elf lexico.asm && ld -m elf_i386 -s -o lexico lexico.o && ./lexico",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
